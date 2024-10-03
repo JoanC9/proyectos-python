@@ -48,7 +48,7 @@ span{
     height: 9em;
     border-radius: 30%;
     /* box-shadow: 0 0 1em 0 rgba(170, 34, 34, 0.484); */
-    margin-right: 5em;
+    margin-right: 3em;
 }
 
 .div_inicio, .ul_inicio{
@@ -68,6 +68,13 @@ span{
 
     text-decoration-line: underline;
     
+}
+
+.cv{
+
+    text-align: center;
+    text-transform: uppercase;
+    height: 4em;
 }
 
 form{
