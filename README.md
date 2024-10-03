@@ -2,6 +2,7 @@
 
 ## Web disañada con Django
 Es un proyecto bien estructurado donde se evidencia el gran poder que tiene Django y mi habilidad para trabajar con ese framework. Se usaron algunas librerías para el envío de email con lo que es send_mail. También se usó el archivo forms.py para la creación de formularios. Me sería imposible explicarles todo el proyecto a detalle y es por eso que les dejo un enlace de un video de YouTube. Serán menos de 3 minutos donde podrán evidenciar la facilidad con la que explico el proyecto y lo podrán entender.
+
 Enlace: 
 
 ## Web usando el framework de Flask (cocreacion3)
