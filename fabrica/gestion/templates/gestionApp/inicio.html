@@ -1,0 +1,53 @@
+{% extends 'gestionApp/base.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+
+    <link rel="stylesheet" href="{% static 'proyectowebApp/css/inicio.css' %}">
+
+    <title>{% block title %} inicio {% endblock %}</title>
+</head>
+<body>
+
+    {% block content %}
+
+        <h2 class="h2_inicio">Acá encontraras una breve descripcion de Mí</h2>
+
+        <h3 class="h3_inicio">¿Quien soy?</h3>
+
+        <div class="div_inicio">
+
+            <p class="p_inicio">Mi Nombre es Joan Cruz y soy un estudiante de Ingeniería de Software con
+                sólidas habilidades en programación y
+                desarrollo web. Me defiendo en Python,
+                Django, HTML y CSS, y tengo experiencia en
+                el uso de PostgreSQL con Django. <br>
+                Numero de Celular: <span>+57 3103431465</span><br>
+                Correo: <span>emmanuel2005.al@gmail.com</span></p>
+    
+                <img src="{% static 'proyectowebApp/img/cv.png' %}" alt="Joan Cruz" class="img_inicio">
+
+        </div>
+        
+
+        <h3 class="h3_inicio">¿Cuales son mis habilidades tecnicas?</h3>
+
+        
+        <ul class="ul_inicio">
+            <li class="li_inicio">Programación en Python (Nivel Avanzado) </li>
+            <li class="li_inicio">Framework Django (Nivel Avanzado) </li>
+            <li class="li_inicio">Desarrollo web con HTML y CSS (Nivel
+                    Avanzado)</li>
+            <li class="li_inicio">Bases de datos con PostgreSQL (Nivel
+                    Intermedio)
+                </li>
+        </ul>
+        
+
+    {% endblock %}
+    
+</body>
+</html>

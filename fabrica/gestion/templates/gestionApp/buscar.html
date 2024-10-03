@@ -1,0 +1,41 @@
+{% extends 'gestionApp/base.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    {% load static %}
+
+    <link rel="stylesheet" href="{% static 'proyectowebApp/css/inicio.css' %}">
+
+
+    <title>{% block title %} Buscar {% endblock %}</title>
+</head>
+<body>
+{% block content %}
+
+    {% if formulario.errors %}
+
+    <p style="color: greenyellow;">Escribe bien la infrmacion</p>
+
+    {% endif %}
+
+    <form action="/encuentra/" method="get">
+        <fieldset>
+
+            <legend>Buscar en la Base de datos</legend>
+            <table>
+
+                {{formulario.as_table}}
+
+            </table>
+
+            <input class="boton_buscar" type="submit" value="Enviar">
+        </fieldset>
+
+    </form>
+    
+{% endblock %}
+</body>
+</html>

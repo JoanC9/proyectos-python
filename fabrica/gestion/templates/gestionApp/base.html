@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    {% load static %}
+
+    <link rel="stylesheet" href="{% static 'proyectowebApp/css/styles.css' %}">
+    
+    <title>{% block title %}  {% endblock %}</title>
+</head>
+<body>
+
+    <h1 class="h1_padre">Bienvenido a la web creada con Django</h1>
+
+    {% include 'gestionApp/superior/paleta.html' %}
+
+    {% block content %}
+
+    {% endblock %}
+
+
+    <p class="footer">Esto fue elaborado por el Estudiante de Ingenieria de software <strong>Joan Cruz</strong>
+    Ingresa a mi repositorio<a href="https://github.com/JoanC9/proyectos-python.git" target="_blank" rel="nofollow noreferrer" class="link_repo"> Mira todos mis proyectos</a></p>
+    
+</body>
+</html>
