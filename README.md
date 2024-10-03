@@ -7,6 +7,9 @@ De esta manera se evidencia el dominio de python y Poo.
 Carpeta de registro vivero donde se evidencia el buen manejo de python acompañado de librerias como pandas, os, matplotlib y seaborn.
 Es importante recalcar que si quieren usar este codigo deben cambiar la ruta donde se crea el archivo csv y excel
 
-## Web usando el framework de Flask
+## Web usando el framework de Flask (cocreacion3)
 En este proyecto, utilicé varias librerías para extraer información de la web e integrarla en mi página. Además, creé diversas funciones para facilitar el trabajo y reutilizar el código de manera eficiente. A continuación, comparto un video con la explicación detallada del proyecto: https://youtu.be/f463Uf3qGoI
+
+## Codigos Matematicos
+Estos códigos están diseñados para resolver problemas de Cálculo I y II, así como para la asignatura de Métodos Numéricos. En particular, se enfocan en la resolución de ejercicios de interpolación, como el método de Lagrange y otros métodos numéricos.
 
