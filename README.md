@@ -1,9 +1,9 @@
 # Repositorio de proyectos en python
 
 ## Web disañada con Django
-Es un proyecto bien estructurado donde se evidencia el gran poder que tiene Django y mi habilidad para trabajar con ese framework. Se usaron algunas librerías para el envío de email con lo que es send_mail. También se usó el archivo forms.py para la creación de formularios. Me sería imposible explicarles todo el proyecto a detalle y es por eso que les dejo un enlace de un video de YouTube. Serán menos de 3 minutos donde podrán evidenciar la facilidad con la que explico el proyecto y lo podrán entender.
+Es un proyecto bien estructurado donde se evidencia el gran poder que tiene Django y mi habilidad para trabajar con ese framework. Se usaron algunas librerías para el envío de email con lo que es send_mail. También se usó el archivo forms.py para la creación de formularios. Me sería imposible explicarles todo el proyecto a detalle y es por eso que les dejo un enlace de un video de YouTube. Serán menos de 4 minutos donde podrán evidenciar la facilidad con la que explico el proyecto y lo podrán entender.
 
-Enlace: 
+Enlace: https://youtu.be/-qC6d0rz1v8 
 
 ## Web usando el framework de Flask (cocreacion3)
 En este proyecto, utilicé varias librerías para extraer información de la web e integrarla en mi página. Además, creé diversas funciones para facilitar el trabajo y reutilizar el código de manera eficiente. A continuación, comparto un video con la explicación detallada del proyecto: https://youtu.be/f463Uf3qGoI
